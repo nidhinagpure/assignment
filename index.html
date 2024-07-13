@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Addmission Form</title>
+</head>
+<body>
+    <h1>Student Addmission Form</h1>
+    <h2>G H RAISONI COLLEGE</h2>
+    <p>Enter your admission information below</p>
+    <hr>
+    <form>
+        <h4><label for="inputtext">Name</label></h4>
+        <input type="text"id="inputtext"placeholder="First Name">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text"id="inputtext"placeholder="Middle Name">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text"id="inputtext"placeholder="Last Name"><br>
+        <h4><label for="inputdate"> Birth Date</label></h4>
+        <input type = "date"id="inputdate"placeholder="Date of birth"> <br><br>
+        <input type ="number"id="inputclass"placeholder="Class">
+
+        <p><b>Gender<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Of which country you are citizen <br><br>
+
+            <input type="radio"name="Gender"id="Male">
+            <label for="Male" >Male</label>
+            <input type="radio"name="Gender"id="Female">
+            <label for ="Female">Female</label>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;
+            <label for="inputcitizen"> </label>
+            <input type ="text"id="inputcitizen"list="SelectCitizen"placeholder="Citizen"/>
+  
+            <datalist id="SelectCitizen">
+  
+                  <option>United Kingdom</option>
+                  <option>Austria</option>
+                  <option>Dehli</option>
+                  <option>Belgium</option>
+                  <option>France</option>
+                  <option>Germany</option>
+                  <option>Italy</option>
+                  <option>India</option>
+
+            </datalist> <br>
+            <h3>Phone Number &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Email</h3>
+            <label for ="Phone"></label>
+            <input type="tel" id="Phone"name="Phone"placeholder ="(000) 000-0000">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;<input type="email"placeholder=example@gmail.com> <br>
+            <h3>Mailing Address &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Street Address &nbsp;&nbsp;&nbsp;&nbsp;</h3>
+            <input type ="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"size="20"><br>
+            <h3>Streek Address Line 2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;City</h3>
+            <input type ="text"size="20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type ="text"id="inputcity"list="inputcityy"placeholder="City">
+            <datalist id="inputcityy">
+                <option>Mumbai</option>
+                <option>Delhi</option>
+                <option>Bangalore</option>
+                <option>Pune</option>
+                <option>Nagpur</option>
+                <option>Bhopal</option>
+                <option>Indore</option>
+            </datalist><br><br>
+            <input type="text"placeholder ="postal/zip code"size="55"><br>
+            <h3>Emergency Contact</h3>
+            <input type="text"placeholder="First name">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text"placeholder="Last name">
+            <h3>Relationship</h3>
+            <input type="text"size="55"><br><br>
+            <h3>Email</h3>
+            <input type="email"size="55"><br><br>
+            <hr><hr>
+            <h4><b><i>Do you speak any lauguage other than English </i></b></h4>
+            <input type="radio">
+            <label for ="yes">Yes</label>
+            <input type="radio">
+            <label for="No">No</label>
+    </form>
+</body>
+</html>
